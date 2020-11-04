@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T10:27:26.995Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="16B32PQoDJf3O-kMyNQQ" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-04T10:49:51.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="iD3dYFJ3f6GAfTn9xuXQ" version="13.8.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2000" dy="3690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="2857" dy="4270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -154,6 +154,9 @@
         </mxCell>
         <mxCell id="enPCNe7Kc10emZnH7GVA-26" value="&lt;b&gt;M - &lt;/b&gt;маска, название &lt;br&gt;ключе, для которых &lt;br&gt;необходима целостность" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=50;size=0.23;gradientColor=none;align=center;fontFamily=Verdana;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="189" y="90" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="enPCNe7Kc10emZnH7GVA-28" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Пробегаем BD3 с поиском всех значений всех ключей из BD2 для каждой таблицы&lt;/div&gt;&lt;div&gt;- Смотрим если есть ли значения primary_kay, которых нет в родительских таблицах для primary_kay&lt;/div&gt;&lt;div&gt;- Если есть то копируем значения из BD1&lt;/div&gt;&lt;div&gt;- Повторяем алгоритм рекурсивно, до момента, пока ну будут отсутствующие значения&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Если значения отсутствуют, выходим из цикла и сообщаем, что целостность бд достигнута.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;fontFamily=Verdana;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="527.5" y="1710" width="760" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
