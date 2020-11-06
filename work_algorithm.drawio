@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2020-11-06T10:05:10.679Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="PpJzCAm76Xf4I9yfMjPH" version="13.8.9-1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-06T10:06:06.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="7sGhy5-r34oNwW6qAgMU" version="13.8.9-1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2353" dy="1593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="5000" dy="3385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Сканирование BD1 на поиск всех ключей по маске &lt;b&gt;M&lt;/b&gt; или и по типу primary_kay" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;fontFamily=Verdana;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="480" y="190" width="238" height="89" as="geometry" />
+          <mxGeometry x="480" y="200" width="238" height="89" as="geometry" />
         </mxCell>
         <mxCell id="l-9b-xkoNXXHcV3tmqy1-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Verdana;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="l-9b-xkoNXXHcV3tmqy1-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="599" y="300" />
-              <mxPoint x="319" y="300" />
+              <mxPoint x="599" y="310" />
+              <mxPoint x="319" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -19,10 +19,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7VdtZipGaVlqs8qHtxKN-2" value="&lt;b&gt;BD_dumb&lt;/b&gt;&lt;br&gt;Оригинальная копия данных&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Verdana;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="886.25" y="100" width="143.75" height="140" as="geometry" />
+          <mxGeometry x="886.25" y="110" width="143.75" height="140" as="geometry" />
         </mxCell>
         <mxCell id="l-9b-xkoNXXHcV3tmqy1-0" value="&lt;b&gt;BD_for_work&lt;br&gt;&lt;/b&gt;Рабочие таблицы для&amp;nbsp;&lt;br&gt;работы приложения" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Verdana;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="680" y="400" width="160" height="160" as="geometry" />
+          <mxGeometry x="680" y="410" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="l-9b-xkoNXXHcV3tmqy1-1" value="&lt;b&gt;BD_result&lt;/b&gt;&lt;br&gt;Сжатая копия данных" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Verdana;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1320" y="1340" width="160" height="160" as="geometry" />
@@ -34,10 +34,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l-9b-xkoNXXHcV3tmqy1-4" value="Наполняем таблицу&amp;nbsp;&lt;br&gt;&lt;span style=&quot;font-weight: 700 ; text-align: left&quot;&gt;kay_primary_tabels&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;glass=0;fontFamily=Verdana;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="199" y="380" width="240" height="60" as="geometry" />
+          <mxGeometry x="199" y="390" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l-9b-xkoNXXHcV3tmqy1-11" value="kay_primary_tabels" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=left;fontFamily=Verdana;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="980" y="300" width="390" height="78" as="geometry" />
+          <mxGeometry x="980" y="310" width="390" height="78" as="geometry" />
         </mxCell>
         <mxCell id="l-9b-xkoNXXHcV3tmqy1-12" value="name_primary_kay - название ключа" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;strokeWidth=2;" parent="l-9b-xkoNXXHcV3tmqy1-11" vertex="1">
           <mxGeometry y="26" width="390" height="26" as="geometry" />
@@ -49,16 +49,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l-9b-xkoNXXHcV3tmqy1-19" value="Наполняем таблицу&amp;nbsp;&lt;br&gt;&lt;span style=&quot;font-weight: 700 ; text-align: left&quot;&gt;kay_column_tabels&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;glass=0;fontFamily=Verdana;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="199" y="500" width="240" height="60" as="geometry" />
+          <mxGeometry x="199" y="510" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l-9b-xkoNXXHcV3tmqy1-20" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Verdana;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-9b-xkoNXXHcV3tmqy1-0" target="l-9b-xkoNXXHcV3tmqy1-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="870" y="408" as="sourcePoint" />
-            <mxPoint x="920" y="358" as="targetPoint" />
+            <mxPoint x="870" y="418" as="sourcePoint" />
+            <mxPoint x="920" y="368" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l-9b-xkoNXXHcV3tmqy1-22" value="kay_column_tabels" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=left;fontFamily=Verdana;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="980" y="450" width="390" height="78" as="geometry" />
+          <mxGeometry x="980" y="460" width="390" height="78" as="geometry" />
         </mxCell>
         <mxCell id="l-9b-xkoNXXHcV3tmqy1-23" value="name_primary_kay - название ключа" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;strokeWidth=2;" parent="l-9b-xkoNXXHcV3tmqy1-22" vertex="1">
           <mxGeometry y="26" width="390" height="26" as="geometry" />
@@ -68,8 +68,8 @@
         </mxCell>
         <mxCell id="l-9b-xkoNXXHcV3tmqy1-25" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Verdana;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-9b-xkoNXXHcV3tmqy1-0" target="l-9b-xkoNXXHcV3tmqy1-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="853.75" y="434.57207207207193" as="sourcePoint" />
-            <mxPoint x="990" y="329.5" as="targetPoint" />
+            <mxPoint x="853.75" y="444.57207207207193" as="sourcePoint" />
+            <mxPoint x="990" y="339.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="enPCNe7Kc10emZnH7GVA-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="enPCNe7Kc10emZnH7GVA-6" edge="1">
@@ -78,7 +78,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l-9b-xkoNXXHcV3tmqy1-34" value="&lt;span style=&quot;font-weight: normal&quot;&gt;Подготовка, заполнение&lt;/span&gt;&amp;nbsp;BD_for_work" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Verdana;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="480" width="627.5" height="90" as="geometry" />
+          <mxGeometry x="483.78" y="10" width="627.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="l-9b-xkoNXXHcV3tmqy1-35" value="&lt;span style=&quot;font-weight: normal&quot;&gt;Первичное заполнение&lt;/span&gt; BD_result&amp;nbsp;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Verdana;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="527.5" y="650" width="532.5" height="90" as="geometry" />
@@ -153,7 +153,7 @@
           <mxGeometry x="730" y="1320" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="enPCNe7Kc10emZnH7GVA-26" value="&lt;b&gt;M - &lt;/b&gt;маска, название &lt;br&gt;ключе, для которых &lt;br&gt;необходима целостность" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=50;size=0.23;gradientColor=none;align=center;fontFamily=Verdana;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="189" y="90" width="260" height="60" as="geometry" />
+          <mxGeometry x="189" y="100" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HUBzX4DrWpm-7c7QjFly-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HUBzX4DrWpm-7c7QjFly-0" target="HUBzX4DrWpm-7c7QjFly-1">
           <mxGeometry relative="1" as="geometry">
